@@ -1,3 +1,12 @@
+/******************************
+file: q3c.cpp
+author: Trevor M. Tomesh
+date: October 7th 2016
+
+This program takes viewing vectors from the user and 
+computes the corresponding transformation matricies.
+******************************/
+
 #include <iostream>
 #include <string>
 #include <math.h>
