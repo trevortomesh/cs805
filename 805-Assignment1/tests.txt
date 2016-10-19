@@ -1,0 +1,195 @@
+Test 1:
+
+Please enter the light vectors: 
+Enter LRP_x: 
+0
+Enter LRP_y: 
+0
+Enter LRP_z: 
+0
+Enter LPN_x: 
+0
+Enter LPN_y: 
+0
+Enter LPN_z: 
+1
+Enter LUP_x: 
+0
+Enter LUP_y: 
+1
+Enter LUP_z: 
+0
+Please enter the viewing vectors: 
+Enter VRP_x: 
+0
+Enter VRP_y: 
+0
+Enter VRP_z: 
+0
+Enter VPN_x: 
+0
+Enter VPN_y: 
+0
+Enter VPN_z: 
+1
+Enter VUP_x: 
+0
+Enter VUP_y: 
+1
+Enter VUP_z: 
+0
+ 
+Light Vectors: 
+LRP = [0,0,0]
+LPN = [0,0,1]
+LUP = [0,1,0]
+ 
+Viewing Vectors: 
+VRP = [0,0,0]
+VPN = [0,0,1]
+VUP = [0,1,0]
+ 
+Transforms: 
+World to Light: {{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}
+Light to World: {{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}
+ 
+World to Camera: {{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}
+Camera to World: {{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}
+ 
+Camera to Light: 
+{{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}
+Light to Camera: 
+{{1,0,0,0},{0,1,0,0},{0,0,1,0},{0,0,0,1}}
+
+------------------------------------------------------------------------
+
+Test 2: 
+Please enter the light vectors: 
+Enter LRP_x: 
+0
+Enter LRP_y: 
+0
+Enter LRP_z: 
+0
+Enter LPN_x: 
+1
+Enter LPN_y: 
+0
+Enter LPN_z: 
+0
+Enter LUP_x: 
+0
+Enter LUP_y: 
+1
+Enter LUP_z: 
+0
+Please enter the viewing vectors: 
+Enter VRP_x: 
+0
+Enter VRP_y: 
+0
+Enter VRP_z: 
+0
+Enter VPN_x: 
+1
+Enter VPN_y: 
+0
+Enter VPN_z: 
+0
+Enter VUP_x: 
+0
+Enter VUP_y: 
+1
+Enter VUP_z: 
+0
+ 
+Light Vectors: 
+LRP = [0,0,0]
+LPN = [1,0,0]
+LUP = [0,1,0]
+ 
+Viewing Vectors: 
+VRP = [0,0,0]
+VPN = [1,0,0]
+VUP = [0,1,0]
+ 
+Transforms: 
+World to Light: {{0,0,-1,0},{-0,1,0,0},{1,0,0,0},{0,0,0,1}}
+Light to World: {{0,-0,1,0},{0,1,0,0},{-1,0,0,0},{0,0,0,1}}
+ 
+World to Camera: {{0,0,-1,0},{-0,1,0,0},{1,0,0,0},{0,0,0,1}}
+Camera to World: {{0,-0,1,0},{0,1,0,0},{-1,0,0,0},{0,0,0,1}}
+ 
+Camera to Light: 
+{{0,-0,-1,0},{-0,1,0,0},{-1,0,0,0},{0,0,0,1}}
+Light to Camera: 
+{{0,-0,-1,0},{-0,1,0,0},{-1,0,0,0},{0,0,0,1}}
+
+------------------------------------------------------------------
+
+Test 3: 
+
+
+Please enter the light vectors: 
+Enter LRP_x: 
+0
+Enter LRP_y: 
+0
+Enter LRP_z: 
+0
+Enter LPN_x: 
+0
+Enter LPN_y: 
+-1
+Enter LPN_z: 
+1
+Enter LUP_x: 
+0
+Enter LUP_y: 
+1
+Enter LUP_z: 
+1
+Please enter the viewing vectors: 
+Enter VRP_x: 
+0
+Enter VRP_y: 
+0
+Enter VRP_z: 
+0
+Enter VPN_x: 
+0
+Enter VPN_y: 
+-1
+Enter VPN_z: 
+1
+Enter VUP_x: 
+0
+Enter VUP_y: 
+1
+Enter VUP_z: 
+1
+ 
+Light Vectors: 
+LRP = [0,0,0]
+LPN = [0,-1,1]
+LUP = [0,1,1]
+ 
+Viewing Vectors: 
+VRP = [0,0,0]
+VPN = [0,-1,1]
+VUP = [0,1,1]
+ 
+Transforms: 
+World to Light: {{1,0,-0,0},{0,0.707107,0.707107,0},{0,-0.707107,0.707107,0},{0,0,0,1}}
+Light to World: {{1,0,0,0},{0,0.707107,-0.707107,0},{-0,0.707107,0.707107,0},{0,0,0,1}}
+ 
+World to Camera: {{1,0,-0,0},{0,0.707107,0.707107,0},{0,-0.707107,0.707107,0},{0,0,0,1}}
+Camera to World: {{1,0,0,0},{0,0.707107,-0.707107,0},{-0,0.707107,0.707107,0},{0,0,0,1}}
+ 
+Camera to Light: 
+{{1,0,-0,0},{0,0.5,-0.5,0},{-0,-0.5,0.5,0},{0,0,0,1}}
+Light to Camera: 
+{{1,0,-0,0},{0,0.5,-0.5,0},{-0,-0.5,0.5,0},{0,0,0,1}}
+
+
+

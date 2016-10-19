@@ -1,3 +1,12 @@
+/******************************
+file: orthoVects.cpp
+author: Trevor M. Tomesh
+date: October 7th 2016
+
+This program simply takes two vectors and computes the
+corresponding orthogonal unit vectors.
+******************************/
+
 #include <iostream>
 #include <string>
 #include <math.h>
